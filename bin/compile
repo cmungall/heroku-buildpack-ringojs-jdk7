@@ -41,7 +41,7 @@ if [ -d "$CACHE_DIR/.ringojs" ]; then
   echo "done"
 fi
 
-RINGOJS_URL="https://github.com/downloads/ringo/ringojs/ringojs-0.8.tar.gz"
+RINGOJS_URL="https://github.com/downloads/ringo/ringojs/ringojs-0.9.tar.gz"
 
 if [ ! -d "$BUILD_DIR/.ringojs" ]; then
   echo -n "-----> Installing ringojs build (to .ringojs)....."
